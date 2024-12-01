@@ -21,7 +21,7 @@ services:
       - db
 
   db:
-    image: postgres:13-alpine
+    image: postgres:13-alpine  # cannot use 15-alpine, which will make db connection
     volumes:
       - dev-db-data:/var/lib/postgresql/data
     environment:
