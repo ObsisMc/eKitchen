@@ -4,3 +4,4 @@ psycopg2
 python-dotenv
 drf-spectacular
 Pillow
+uwsgi
